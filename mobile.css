@@ -1,0 +1,26 @@
+.nav{
+    padding-bottom: 0.5rem;
+}
+.icon{
+    padding: 0;
+}
+
+.icon ul{
+    display: block;
+}
+.v1{
+    display:none;
+}
+.middle{
+    padding-top:3rem;
+}
+.middle h1{
+    font-size: 2.5rem;
+    font-weight:400;
+}
+.content{
+    margin-top:25rem;
+}
+button{
+    width: 10rem;
+}

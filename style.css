@@ -1,0 +1,167 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    position: absolute;
+    width:100vw;
+    background: linear-gradient(
+        rgb(79, 79, 94), 
+        rgba(101, 124, 146, 0.45)
+      ), url("assets/banner.jpg") no-repeat center center/cover ;
+    height: 80vh;
+    color:white;
+}
+.header{
+    width: 70%;
+    margin: 0 auto;
+    padding-top:2rem;
+
+}
+.nav {
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 2.5rem;
+    
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover{
+    font-size:1.2rem;
+}
+.topnav .bars{
+    display: none;
+}
+.menu-toggle{
+    display: none;
+    cursor: pointer;
+}
+.menu-toggle i{
+    color: white;
+    font-size:1rem;
+
+}
+hr{
+    border-top: 0.1rem solid grey;
+    opacity:0.2;
+}
+.middle{
+    position: absolute;
+    width: 25%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%); 
+    text-align: center;
+}
+ ul{
+    padding: 0;
+    list-style-type: none;
+
+
+}
+.middle h1{
+    font-size: 4rem;
+    font-weight:400;
+}
+.icon{
+    padding-top: 1rem;
+    width:100%;
+}
+.icon ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.v1{
+    border-left: 0.25rem solid grey;
+    position: absolute;
+    height:9rem; 
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-20%);
+}
+.icon li:nth-child(2){
+    border:none;
+}
+
+i{
+    font-size: 3rem;
+    color: #6CC092;
+}
+#rightnav li i{
+    color: white;
+    font-size:1rem;
+}
+.banner{
+    display: none;
+}
+button{
+    width: 15rem;
+    height:3rem;
+    border-radius: 2rem;
+    border-color: #6CC092;
+    border: 0.3rem solid #6CC092;
+    background-color:transparent;
+    color: #6CC092;
+}
+button:hover{
+    color:white;
+    background-color:#6CC092;
+}
+.bttn{
+    padding-top:2rem;
+}
+/* .container2{
+    position: absolute;
+    width: 70%;
+    left:50%;
+    top:
+
+
+} */
+.content{
+    margin-top:14rem;
+    display: flex;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top:   100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    justify-content:space-between;
+    padding-top:2rem;
+    color:gray;
+    /* margin-bottom: 10rem; */
+}
+.content p{
+    font-size: 0.8rem;
+}
+
+img{
+    border-radius: 50%;
+    width:12rem;
+    height: 12rem;
+    justify-content:space-between;
+    filter:grayscale(100%);
+    
+}
+.content button{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+.content button:hover{
+    background-color:#6CC092;
+    color:white;
+}

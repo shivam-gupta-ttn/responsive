@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="responsive.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
+
+    <script src="https://kit.fontawesome.com/975dcfd1fe.js" crossorigin="anonymous"></script>
+    <title>Responsive website</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+        <div class="header">
+            
+            <div class="nav topnav" id="myTopnav">
+                <h3>Responsive Layout</h3>
+                <ul id="rightnav" class="nav1">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#">Generic</a></li>
+                    <li><a href="#">Elements</a></li>
+                    
+                    <!-- <li><a href="javascript:void(0);" class="bars" onclick="myFunction()">
+                        <i class="fas fa-bars"></i>
+                      </a></li> -->
+                </ul>
+                <div class="menu-toggle" onclick="myFunction()">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div id="myDIV" class="banner">
+                <nav >
+                   <div class="wrapper"id="cross">
+                    <a  href=""  ><i class="fas fa-times"  ></i></a>
+                </div>
+                    <ul>
+                        <li><a href="#" >Home</a>
+                            
+                        </li>
+
+                        <li><a href="#">Generic</a></li>
+                        <li><a href="#">Elements</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            
+
+            <hr>
+            
+        </div>
+        <div class="middle">
+            <h1>Welcome</h1>
+            <div class="icon">
+                <ul>
+             <li>
+                 
+                
+                <i class="fas fa-car"></i>
+                <h2>Travel</h2>
+                <p>Choose a ride</p>
+                
+            </li>
+            <li>
+                <div class="v1">
+                    
+                </div>
+            
+            </li>
+           <li> 
+            
+                <i class="fas fa-camera"></i>
+                <h2>Gallery</h2>
+                <p>Choose photos</p>
+                
+             </li>
+        </ul>
+            </div>
+            <div class="bttn">
+            <button type="submit">GET STARTED</button>
+            </div>
+        </div>
+</div>
+    <div class="container2">
+    <div class="content">
+        <div class="cont1"> 
+            <img src="assets/logo1.jpg" alt="" srcset="">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis neque iusto ipsum id officia sed?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, omnis.</p>
+
+            <button type="submit">LEARN MORE</button>
+        </div>
+        <div class="cont2">
+            <img src="assets/logo2.jpg" alt="" srcset="">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis neque iusto ipsum id officia sed?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, omnis.</p>
+            <button type="submit">LEARN MORE</button>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    // function myFunction() {
+    //   var x = document.getElementById("myTopnav");
+    //   if (x.className === "topnav") {
+    //     x.className += " responsive";
+    //   } else {
+    //     x.className = "topnav";
+    //   }
+    // }
+    function myFunction() {
+  var element = document.getElementsByClassName("banner")[0].style.display="block";
+  
+}
+document.getElementById("cross").addEventListener("click", function() {
+    console.log("abc");
+  document.getElementById("myDIV").style.display="none";
+  
+});
+
+
+  </script>
+
+</body>
+</html>
