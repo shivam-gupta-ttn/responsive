@@ -6,7 +6,7 @@ body{
 
 .container1 {
     position: absolute;
-    width:100vw;
+    width:100%;
     background: linear-gradient(
         rgb(79, 79, 94), 
         rgba(101, 124, 146, 0.45)
