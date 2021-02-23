@@ -57,7 +57,7 @@ hr{
 }
 .middle{
     position: absolute;
-    width: 25%;
+    width: 20%;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%); 
@@ -69,10 +69,10 @@ hr{
 
 
 }
-.middle h1{
+/* .middle h1{
     font-size: 4rem;
     font-weight:400;
-}
+} */
 .icon{
     padding-top: 1rem;
     width:100%;
@@ -90,14 +90,14 @@ hr{
     height:9rem; 
     left:50%;
     top:50%;
-    transform:translate(-50%,-20%);
+    transform:translate(-50%,-50%);
 }
 .icon li:nth-child(2){
     border:none;
 }
 
 i{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #6CC092;
 }
 #rightnav li i{
