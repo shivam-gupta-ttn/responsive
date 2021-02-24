@@ -25,34 +25,36 @@
       .nav ul{
           display: block;
       }
-    .nav{
-        padding-bottom: 1rem;
-    }
+  
 .middle{
-    padding-top:0rem;
-    width:40%;
+    /* padding-top:0rem; */
+    width: 30%;
     
 }
 /* .middle h1{
     font-size: 3rem;
     font-weight:400;
 } */
+.middle button{
+    width: 10rem;
+}
 
 .icon{
 
     width:100%;
 }
-.v1{
+/* .v1{
     border-left: 0.25rem solid grey;
     position: absolute;
     height:9rem; 
     left:50%;
     top:50%;
     transform:translate(-50%,-50%);
-}
+} */
 .content{
     display: block;
-    margin-top:20rem;
+    margin-top: 3rem;
+    /* margin-top:20rem; */
 }
 i{
     font-size: 2rem;
